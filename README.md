@@ -1,15 +1,32 @@
-# cloning your local
+# このリポジトリについて
+
+PHPの軽量フレームワークのSlim-3を使用したアプリケーションのひな型です。
+クライアントサイドのjavascriptやcssも、node.jsを使用してtypescriptやscssを使用できるようにチューニングしてあります。
+
+# ローカルにクローン
 ```
 git clone https://github.com/Mast1ff/slim3-app <your-project-name>
 ```
 
-# Start dev
+# パッケージイントール
 ```
 composer install
+yarn install
+```
+
+# サーバー起動
+```
 composer start
 ```
 
+# Typescript & Scss コンパイル
+```
+yarn dev # watch コマンド
+yarn build # コンパイルコマンド
+```
 
+
+## 以下、公式のREADME
 
 # Slim Framework 3 Skeleton Application
 
